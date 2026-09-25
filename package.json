@@ -4,14 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Pax — a pump.fun-style launchpad that turns Twitter/X accounts into coins whose market cap is driven by followers and likes, backed by creator funds from the main PAX coin.",
-  "bin": {
-    "pax": "src/cli.ts"
-  },
   "scripts": {
-    "start": "tsx src/cli.ts",
-    "cli": "tsx src/cli.ts",
+    "start": "tsx src/demo.ts",
     "demo": "tsx src/demo.ts",
-    "test": "node --import tsx --test src/launchpad.test.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
